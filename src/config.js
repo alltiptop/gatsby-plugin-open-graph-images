@@ -7,7 +7,7 @@ exports.config = (() => {
     puppeteerLaunchOptions: {
       product: "chrome",
       headless: true,
-      args: [],
+      args: ['--no-sandbox'],
       slowMo: 0,
       channel: "stable",
       timeout: 0,
